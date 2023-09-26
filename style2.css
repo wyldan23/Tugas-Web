@@ -1,0 +1,29 @@
+td{
+    border-collapse: collapse;
+    font-family: verdana;
+}
+tbody:first-child{
+    width: 50px;
+}
+td:not(:first-child){
+        width: 100px;
+        border-bottom: 1px solid white;
+}
+thead td{
+    background-color: white;
+    color: black;
+    
+}
+tr:nth-child(odd){
+    background-color: #00acd3;
+    color: white;
+
+}
+tr:nth-child(even){
+    background-color: #00758f;
+    color: white;
+}
+td:hover {
+    background-color: blue;
+    color: white;
+}
